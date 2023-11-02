@@ -27,7 +27,7 @@ url: https://www.therewillbereviews.com/
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
-baseurl: "https://www.therewillbereviews.com/"
+baseurl: "https://github.com/benlazarine/therewillbereviews.github.io/"
 
 # global author information
 author: ben-laz
