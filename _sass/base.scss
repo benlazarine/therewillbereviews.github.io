@@ -116,22 +116,24 @@ pre.highlight {
   @include make-container();
 }
 
-.star-rating-large {
+.star-rating-large>i {
   width:28px;
   height:29px;
 }
 
-.star-rating {
+.star-rating>i {
     display: inline-block;
     width: 112px;
     height: 29px;
+    background-repeat: no-repeat;
+    margin: 0 0.25rem 0 0;
 }
 
-.star-rating.icon-star-full {
+.star-rating>i.icon-star-full {
     background-image: url(https://therewillbereviews.com//assets/images/full-star.jpeg);
 }
 
-.star-rating.icon-star-half {
+.star-rating>i.icon-star-half {
     background-image: url(https://therewillbereviews.com//assets/images/half-star.jpeg);
     background-position: -5px 0;
 }
