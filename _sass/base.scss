@@ -115,3 +115,26 @@ pre.highlight {
 .custom-container {
   @include make-container();
 }
+
+.star-rating-large>i {
+  width:28px;
+  height:29px;
+}
+
+.star-rating>i {
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    width: 22px;
+    height: 23px;
+    margin: 0 0.25rem 0 0;
+}
+
+.star-rating>i.icon-star-full {
+    background-image: url(./assets/images/full-star.jpeg);
+}
+
+.star-rating>i.icon-star-half {
+    background-image: url(./assets/images/half-star.jpeg);
+    background-position: -5px 0;
+}
