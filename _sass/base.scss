@@ -123,22 +123,29 @@ pre.highlight {
 }
 
 .full-star {
-  width:60px;
-  height:60px;
+  width:46px;
+  height:46px;
   padding-left: 0;
   padding-right: 0;
 }
 
 .half-star {
-  width:30px;
-  height:60px;
+  width:23px;
+  height:46px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.star-space {
+  width:4px;
+  height:46px;
   padding-left: 0;
   padding-right: 0;
 }
 
 .empty-star {
-   width:70px;
-  height:70px;
+   width:46px;
+  height:46px;
 }
 
 
