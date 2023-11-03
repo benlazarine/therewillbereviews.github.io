@@ -65,7 +65,7 @@ pre.highlight {
 }
 .tab {
     display: inline-block;
-    margin-left: 4em;
+    margin-left: 2em;
 }
 
 
@@ -104,7 +104,7 @@ pre.highlight {
 
 // Source mixin
 @mixin make-container($padding-x: $container-padding-x) {
-  width: 80%;
+  width: 90%;
   padding-right: $padding-x;
   padding-left: $padding-x;
   margin-right: auto;
