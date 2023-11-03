@@ -104,7 +104,7 @@ pre.highlight {
 
 // Source mixin
 @mixin make-container($padding-x: $container-padding-x) {
-  width: 90%;
+  width: 80%;
   padding-right: $padding-x;
   padding-left: $padding-x;
   margin-right: auto;
