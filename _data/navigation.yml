@@ -1,6 +1,6 @@
 - name: Home
   link: https://www.therewillbereviews.com/
-- name: About
-  link: /about/
-- name: Portfolio
-  link: /portfolio/
+- name: Reviews
+  link: https://www.therewillbereviews.com/reviews/
+- name: Gallery
+  link: /gallery/
