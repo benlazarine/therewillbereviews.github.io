@@ -3,17 +3,13 @@ layout: default
 ---
 
 <div class="archive">
-  {% for post in site.posts %} {% assign currDate = post.date | date: "%Y" %} {%
-  if currDate != date %}
-  <h1 class="archive-year">{{ currDate }}</h1>
-  {% assign date = currDate %} {% endif %}
+  <h1 class="archive-year">Recent Reviews</h1>
   <div class="archive-item">
     <span class="post-date archive-date fs-4"
-      >{{ post.date | date: "%B %d, %Y" }}</span
+      >September 17, 2023</span
     >
-    <a href="{{ post.url | relative_url }}" class="archive-title fs-4"
-      >{{ post.title }}</a
+    <a href="https://www.therewillbereviews.com/reviews/dune-1983" class="archive-title fs-4"
+      >Dune (1983)</a
     >
   </div>
-  {% endfor %}
 </div>
