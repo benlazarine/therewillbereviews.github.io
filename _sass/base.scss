@@ -116,22 +116,22 @@ pre.highlight {
   @include make-container();
 }
 
-.star-rating-large>i {
+.star-rating-large {
   width:28px;
   height:29px;
 }
 
-.star-rating>i {
+.star-rating {
     display: inline-block;
     width: 112px;
     height: 29px;
 }
 
-.star-rating>i.icon-star-full {
+.star-rating.icon-star-full {
     background-image: url(./assets/images/full-star.jpeg);
 }
 
-.star-rating>i.icon-star-half {
+.star-rating.icon-star-half {
     background-image: url(./assets/images/half-star.jpeg);
     background-position: -5px 0;
 }
